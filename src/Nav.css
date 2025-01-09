@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+   flex-direction:row;
+   list-style:none;
+   justify-content: center;
+   gap:60px;
+   padding:10px;
+   padding-right:100px;
+   margin:auto; 
+   background-color:#233142; 
+   color:white;
+   cursor:pointer;
+}
+@media screen and (max-width: 998px) {
+    .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#233142;   
+    padding:3px;
+    }
+   
+}

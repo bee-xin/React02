@@ -1,0 +1,11 @@
+.foot{
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    justify-content:center;
+    gap:50px;
+    background-color:#e3e3e3; 
+    margin:auto;
+    padding:auto;
+    cursor:pointer;
+}   
